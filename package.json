@@ -1,20 +1,21 @@
 {
-    "name": "laravel-echo",
-    "version": "1.11.7",
-    "description": "Laravel Echo library for beautiful Pusher and Socket.IO integration",
+    "name": "laravel-echo-uni",
+    "version": "1.0.0",
+    "description": "UniApp Laravel Echo library (Credit https://github.com/wuzhuang102/echo)",
     "keywords": [
+        "uni-app",
         "laravel",
         "pusher",
         "ably"
     ],
-    "homepage": "https://github.com/laravel/echo",
+    "homepage": "https://github.com/hsuan1117/echo-uni",
     "repository": {
         "type": "git",
-        "url": "https://github.com/laravel/echo"
+        "url": "https://github.com/hsuan1117/echo-uni"
     },
     "license": "MIT",
     "author": {
-        "name": "Taylor Otwell"
+        "name": "Hsuan"
     },
     "main": "dist/echo.common.js",
     "module": "dist/echo.js",
@@ -52,5 +53,8 @@
     },
     "engines": {
         "node": ">=10"
+    },
+    "dependencies": {
+        "@hyoga/uni-socket.io": "^1.0.1"
     }
 }
